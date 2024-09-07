@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 body{
-    background-color: #0C0A0B;
+    background-color: #d9d9d9;
     font-family: 'Montserrat', sans-serif;
 }
 .container{
@@ -30,21 +30,25 @@ body{
     flex-direction: column;
     justify-content: space-around;
 }
+.title{
+    border:2px solid #747474;
+    background-color: #efefef;
+    padding-bottom: 10px;
+}
 h1{
     font-size: 40px;
-    color: #FFFCFF;
-    border:2px solid #165E5F;
-    text-shadow: 10px 10px 10px #0fa4a7;
+    color: #000000;
+    text-shadow: 10px 10px 10px #4e4e4e;
     text-align: center;
     padding: 10px;
 }
 .header_text{
-    color: #0fa4a7;
+    color: #000000;
     text-align: center;
     margin-top: 10px;
 }
 .header_photo{
-    background-image: url("imges/m_w_u_3.jpg");
+    background-image: url("imges/rab_stol.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,7 +63,7 @@ h1{
     justify-content: space-around;
 }
 h2{
-    color: #FFFCFF;
+    color: #000000;
     font-size: 30px;
 }
 hr{
@@ -67,7 +71,7 @@ hr{
     margin-bottom: 20px ;
     border: none;
     height: 2px;
-    background-color:#165E5F;
+    background-color:#747474;
 }
 .intro_img{
     width: 380px; 
@@ -80,7 +84,7 @@ hr{
     flex-direction: column;
 }
 .intro_text{
-    color: #0fa4a7;
+    color: #010101;
     font-size: 18px;
     padding-top: 20px;
 }
@@ -98,28 +102,28 @@ hr{
     width: 330px;
     height:390px ;
     border-radius:70px 0px 70px 0px ;
-    border: 2px solid #165E5F;
+    border: 2px solid #747474;
     padding: 20px;
 }
 .cart_img_2{
     width: 330px;
     height:390px ;
     border-radius:0px 70px 0px 70px ;
-    border: 2px solid #165E5F;
+    border: 2px solid #747474;
     padding: 20px;
 }
 h3{
-    color: #FFFCFF;
+    color: #747474;
     font-size: 25px;
     margin-top: 10px;
 }
 .cart_text{
-    color: #0fa4a7;
+    color: #000000;
     margin-bottom: 20px;
 }
 .cart_btn{
-    color: #FFFCFF;
-    background-color: #165E5F;
+    color: #000000;
+    background-color: #747474;
     padding: 10px 35px;
 }
 .pupils{
@@ -140,10 +144,10 @@ footer{
     margin-bottom: 40px;
 }
 .footer_a{
-    color: #0fa4a7;
+    color: #000000;
 }
 .fa-brands , .fa-whatsapp, .fa-facebook, .fa-instagram{
-    color: #0fa4a7;
+    color: #747474;
     font-size: 20px;
     display: inline-block;
     margin: 10px;
