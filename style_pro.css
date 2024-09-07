@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 body{
-    background-color: #0C0A0B;
+    background-color: #d9d9d9;
     font-family: 'Montserrat', sans-serif;
 }
 .container{
@@ -19,7 +19,7 @@ body{
     margin-bottom: 60px;
 }
 h2{
-    color: #FFFCFF;
+    color: #000000;
     font-size: 30px;
 }
 hr{
@@ -27,27 +27,28 @@ hr{
     margin-bottom: 20px ;
     border: none;
     height: 2px;
-    background-color:#165E5F;
+    background-color:#747474;
 }
 h3{
-    color: #FFFCFF;
+    color: #747474;
     font-size: 20px;
 }
 .text{
-    color:#0fa4a7 ;
+    color:#000000 ;
+    padding: 10px;
 }
 .bottom_text{
-    color: #FFFCFF;
+    color: #747474;
     font-size: 20px;
     margin-bottom: 40px;
 }
 .bottom_t{
-    color: #0fa4a7;
+    color: #747474;
     margin-bottom: 40px;
 }
 .btn{
     color: #FFFCFF;
-    background-color: #165E5F;
+    background-color: #747474;
     padding: 20px;
 }
 @media(max-width:600px){
