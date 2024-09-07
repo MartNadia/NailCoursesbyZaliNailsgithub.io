@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -30,15 +30,16 @@ hr{
     background-color:#747474;
 }
 h3{
-    color: #747474;
+    color: #010101;
     font-size: 20px;
 }
 .text{
     color:#000000 ;
     padding: 10px;
+    font-weight: 700;
 }
 .bottom_text{
-    color: #747474;
+    color: #010101;
     font-size: 20px;
     margin-bottom: 40px;
 }
