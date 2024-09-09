@@ -29,6 +29,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-left: 230px;
 }
 .title{
     border:2px solid #747474;
@@ -48,13 +49,8 @@ h1{
     margin-top: 10px;
 }
 .header_photo{
-    background-image: url("imges/rab_stol.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 60%;
-    width: 60%;
-    margin-left: 130px;
+    width: 320px; 
+    height: 420px;
     border-radius: 70px 0px 70px 0px;
 }
 .intro_content{
@@ -77,6 +73,8 @@ hr{
     width: 380px; 
     height: 450px;
     border-radius: 0px 70px 0px 70px;
+    border: 2px solid #747474;
+    padding: 20px;
 }
 .intro-left{
     width: 50%;
@@ -84,10 +82,19 @@ hr{
     flex-direction: column;
 }
 .intro_text{
-    font-weight: 700;
     color: #010101;
     font-size: 18px;
     padding-top: 20px;
+}
+.intro_btn{
+    margin-top: 30px;
+    border-radius: 40px;
+    border: solid 2px #515151;
+    color: #FFFFFF;
+    background-color: #9c9c9c;
+    padding: 10px 35px;
+    width: 70%;
+    text-align: center;
 }
 .courses_articl{
     margin: 0px 90px;
@@ -155,10 +162,14 @@ footer{
 }
 @media(max-width:1000px){
     .intro_img{
-        width: 0px;
+        width: 300px; 
+        height: 370px;
     }
     .hr_2{
         width:70%;
+    }
+    .header-right{
+        margin-left:40px;
     }
 }
 @media(max-width:850px){
@@ -166,14 +177,21 @@ footer{
         padding: 0px 60px ;
     }
     .header-content{
-        display: inline;
+        display: inline-block;
     }
     .header-left{
         width: 100%;
         margin-top: 200px;
     }
+    .header-right{
+        width: 100%;
+        margin-top: 40px;
+        align-items: center;
+        margin-left: 0;
+    }
     .intro_content{
         padding-top: 240px;
+        display: inline-block;
     }
     .intro-left{
         width: 100%;
@@ -181,6 +199,9 @@ footer{
     }
     .cart{
         margin: 40px 90px;
+    }
+    .intro_img{
+        margin: 40px 0px;
     }
 }
 @media(max-width:550px){
